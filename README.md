@@ -8,13 +8,16 @@ W tym tepozytorium znajduje się projekt na zaliczenie powyżej wymienionego prz
 ## Testowanie podatności wybranych aplikacji webowych na ataki typu Cross-side scripting (XSS)
 
 ### Zadania do wykonania
+
 ####Zadanie 1
+
 #####Przygotowanie do zadania 1 
 - Włącz  [google gruyere](https://google-gruyere.appspot.com/start "google gruyere")
 - Zapisz swoje Gruyere ID
 - Wejdź do aplikacji i zarejestruj kilku użytkowników (nie używaj prawdziwych haseł ponieważ aplikacja jest bardzo dziurawa)
 
 ##### Polecenia
+
 ##### 1.1 Atak reflected XSS 
 
 Aby wykonać to zadanie, należy znaleźć na stronie miejsce, gdzie jest możliwe wykonanie ataku reflected XSS. Należy wstrzyknąć kod JavaScript i wyświetlić ciasteczka użytkownika. W odpowiedzi należy podać użyty kod oraz screen potwierdzający autentyczność rozwiązania.
@@ -29,6 +32,7 @@ Aby wykonać to zadanie, należy znaleźć miejsce, w którym można dodać jaki
 - w zadaniu będziemy posługiwać się programem Burp. Aby zintegrować przeglądarke z Burpem można posłużyć się [instrucją z laboratorium](https://github.com/djuszka/BAWiM_lab_2021/blob/main/BAWiM_lab2.md#user-content-zadanie-2-konfiguracja-przeglądarki "instrucja z laboratorium") 
 
 ##### Polecenia
+
 ##### 2.1 Atak DOM XSS
 
 Zadanie to polega na wykorzystaniu luki w zabezpieczeniach strony, która wykorzystuje niebezpieczną funkcję document.write do zapisywania danych na stronie. Funkcja ta wykorzystuje dane z location.search, którymi można sterować za pomocą adresu URL witryny. Co można wykorzystać w ataku.
@@ -38,9 +42,11 @@ Zadanie to polega na wykorzystaniu luki w zabezpieczeniach strony, która wykorz
 W tym przykładzie serwer przetwarza dane z żądania i powtarza je w odpowiedzi. Tworzy się w ten sposób niebezpieczna luka, która można wykorzystać. Aby wykonać to zadanie, należy wstrzyknąć kod, który wywoła funkcję alert().
 
 ####Zadanie 3
+
 #####Przygotowanie do zadania 3
 - Instrukcja do instalacji aplikacji DVWA znajduje się na githubie z projektem
 ##### Step by step installation
+
 ###### On Windows
 We recommend running the app with xampp:
 * download and install xampp (Apache + Mysql + PHP): https://www.apachefriends.org/index.html
@@ -102,6 +108,7 @@ Następnie otwieramy Microsoft Store, wyszukujemy w nim "ubuntu", wybieramy pier
  Burpem można posłużyć się [instrucją z laboratorium](https://github.com/djuszka/BAWiM_lab_2021/blob/main/BAWiM_lab2.md#user-content-zadanie-2-konfiguracja-przeglądarki "instrucja z laboratorium") 
 
 ##### Polecenie
+
 #####  Atak stored XSS
 
 Zadanie polega na przeprowadzeniu ataku stored XSS, który umożliwi nam zalogowanie się na cudze konto bez loginu i hasła. W tym zadaniu będziemy używać dziurawej aplikacji DVWA. Należy w niej dodać odpowiedni wpis w zakładce XSS (Stored), który wyśle ciasteczka na serwer, który będzie nasłuchiwał. Serwer należy uruchomić na WSL-u, wpisując następującą komendę ”nc -lvp [port]” gdzie [port] to numer portu, na którym będziemy nasłuchiwali. Należy sprawdzić, na jakim poziomie zabezpieczeń możliwy jest atak. W odpowiedzi należy podać użyty kod oraz screen potwierdzający autentyczność rozwiązania.
@@ -109,8 +116,11 @@ Zadanie polega na przeprowadzeniu ataku stored XSS, który umożliwi nam zalogow
 ####Zadanie 4
 
 
+
 ##### Polecenie
+
 #####  Atak stored XSS
+
 
 Przeprowadź atak stored XSS na aplikacji DVWA. Dodaj wpis który, umożliwi przesyłanie danych wpisanych, przez innego użytkownika, w formularzu (Name, Message) na nasz nasłuchujący serwer stworzony tak jak w poprzednim zadaniu. W odpowiedzi należy podać użyty kod oraz screen potwierdzający autentyczność rozwiązania.
 
