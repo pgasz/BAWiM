@@ -9,9 +9,9 @@ W tym tepozytorium znajduje się projekt na zaliczenie powyżej wymienionego prz
 
 ### Zadania do wykonania
 
-####Zadanie 1
+#### Zadanie 1
 
-#####Przygotowanie do zadania 1 
+##### Przygotowanie do zadania 1 
 - Włącz  [google gruyere](https://google-gruyere.appspot.com/start "google gruyere")
 - Zapisz swoje Gruyere ID
 - Wejdź do aplikacji i zarejestruj kilku użytkowników (nie używaj prawdziwych haseł ponieważ aplikacja jest bardzo dziurawa)
@@ -41,7 +41,7 @@ Zadanie to polega na wykorzystaniu luki w zabezpieczeniach strony, która wykorz
 
 W tym przykładzie serwer przetwarza dane z żądania i powtarza je w odpowiedzi. Tworzy się w ten sposób niebezpieczna luka, która można wykorzystać. Aby wykonać to zadanie, należy wstrzyknąć kod, który wywoła funkcję alert().
 
-####Zadanie 3
+#### Zadanie 3
 
 #####Przygotowanie do zadania 3
 - Instrukcja do instalacji aplikacji DVWA znajduje się na githubie z projektem
@@ -113,7 +113,7 @@ Następnie otwieramy Microsoft Store, wyszukujemy w nim "ubuntu", wybieramy pier
 
 Zadanie polega na przeprowadzeniu ataku stored XSS, który umożliwi nam zalogowanie się na cudze konto bez loginu i hasła. W tym zadaniu będziemy używać dziurawej aplikacji DVWA. Należy w niej dodać odpowiedni wpis w zakładce XSS (Stored), który wyśle ciasteczka na serwer, który będzie nasłuchiwał. Serwer należy uruchomić na WSL-u, wpisując następującą komendę ”nc -lvp [port]” gdzie [port] to numer portu, na którym będziemy nasłuchiwali. Należy sprawdzić, na jakim poziomie zabezpieczeń możliwy jest atak. W odpowiedzi należy podać użyty kod oraz screen potwierdzający autentyczność rozwiązania.
 
-####Zadanie 4
+#### Zadanie 4
 
 
 
