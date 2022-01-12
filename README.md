@@ -43,7 +43,7 @@ W tym przykładzie serwer przetwarza dane z żądania i powtarza je w odpowiedzi
 
 #### Zadanie 3
 
-#####Przygotowanie do zadania 3
+##### Przygotowanie do zadania 3
 - Instrukcja do instalacji aplikacji DVWA znajduje się na githubie z projektem
 ##### Step by step installation
 
