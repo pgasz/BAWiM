@@ -26,8 +26,9 @@ Aby wykonać to zadanie, należy znaleźć na stronie miejsce, gdzie jest możli
 
 Aby wykonać to zadanie, należy znaleźć miejsce, w którym można dodać jakiś wpis widoczny dla wszystkich użytkowników. Następnie należy w nim umieścić kod wyświetlający ciasteczka danego użytkownika. Aby sprawdzić, czy kod działa poprawnie, należy zalogować się na innego użytkownika i sprawdzić, czy po wejściu na odpowiednią stronę na ekranie zostaną wyświetlone ciasteczka. W odpowiedzi należy podać użyty kod oraz screen potwierdzający autentyczność rozwiązania.
 
-####Zadanie 2
-#####Przygotowanie do zadania 2
+#### Zadanie 2
+
+##### Przygotowanie do zadania 2
 - Do zadania drugiego będzie niezbędne konto na portswiggerze
 - w zadaniu będziemy posługiwać się programem Burp. Aby zintegrować przeglądarke z Burpem można posłużyć się [instrucją z laboratorium](https://github.com/djuszka/BAWiM_lab_2021/blob/main/BAWiM_lab2.md#user-content-zadanie-2-konfiguracja-przeglądarki "instrucja z laboratorium") 
 
