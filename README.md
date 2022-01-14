@@ -37,10 +37,15 @@ Aby wykonać to zadanie, należy znaleźć miejsce, w którym można dodać jaki
 ##### 2.1 Atak DOM XSS
 
 Zadanie to polega na wykorzystaniu luki w zabezpieczeniach strony, która wykorzystuje niebezpieczną funkcję document.write do zapisywania danych na stronie. Funkcja ta wykorzystuje dane z location.search, którymi można sterować za pomocą adresu URL witryny. Co można wykorzystać w ataku.
+Treść zadania dostępna pod adresem - https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink-inside-select-element
+
+
 
 ##### 2.2 Atak reflected DOM
 
 W tym przykładzie serwer przetwarza dane z żądania i powtarza je w odpowiedzi. Tworzy się w ten sposób niebezpieczna luka, która można wykorzystać. Aby wykonać to zadanie, należy wstrzyknąć kod, który wywoła funkcję alert().
+
+Treść zadania dostępna pod adresem - https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-reflected
 
 #### Zadanie 3
 
